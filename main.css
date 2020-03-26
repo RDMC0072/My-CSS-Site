@@ -1,0 +1,262 @@
+/**************STYLES FOR THE HTML-TAGS***********/
+a {
+  text-decoration: none;
+  color: #11999E;
+  font-size: 20px;
+}
+
+body {
+  color: ghostwhite;
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
+}
+
+h1 {
+  padding-top: 50px;
+  color: #66BFBF;
+  line-height: 1;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 5.4rem;
+  font-weight: normal;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  padding-top: 1.0rem;
+  padding-left: 10px
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  color: #40514E;
+  padding-top: 100px;
+  border-style: none;
+  border-width: 5px;
+  width: 5%;
+  border-top-style: dotted;
+}
+
+p {
+  line-height: 2;
+  text-align: center;
+  color: #40514E;
+  font-weight: bold;
+  padding-right: 0;
+  padding-bottom: 100px;
+}
+
+/**************STYLES FOR THE CLASS SELECTOR'S***********/
+.bio-text {
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  color: #40514E;
+  font-weight: bold;
+  padding-right: 0;
+  padding-bottom: 100px;
+  line-height: 2;
+}
+
+.bottom-cloud {
+  margin: 0;
+  position: absolute;
+  right: 1150px;
+}
+
+.color-text-h3 {
+  color: #11999E;
+  font-family: sans-serif;
+}
+
+.contact-link {
+  position: absolute;
+  left: 350px;
+  top: 2980px;
+}
+
+.contact-link2 {
+  position: absolute;
+  left: 818px;
+  top: 2980px;
+}
+
+.contact-link3 {
+  position: absolute;
+  left: 1350px;
+  top: 2980px;
+}
+
+.contact-link-container {
+  height: 200px;
+  background-color: #66BFBF
+}
+
+.container {
+  margin: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+.copyright {
+  position: relative;
+  margin-top: 100px;
+  color: #EAF6F6;
+  padding: 0 0 0 0;
+}
+
+.css-image {
+  float: left;
+  width: 25%;
+}
+
+.get-in-touch-container {
+  line-height: 2;
+  margin-left: 500px;
+  width: 50%;
+  margin-bottom: 100px;
+  margin-top: 0;
+  /*margin: 0 auto !important;
+  padding-top: 100px;*/
+  padding: 0;
+}
+
+.get-in-touch-text {
+  margin-bottom: 150px !important;
+  text-align: center;
+}
+
+
+
+.hello {
+  margin: auto 20px 20px auto;
+}
+
+.html-image {
+  float: left;
+  width: 25%;
+}
+
+.javascript-image {
+  float: left;
+  width: 25rem;
+}
+
+.middle-container {
+  /*height: 200px;
+  width: 200px;
+  background-color: ghostwhite;
+  border: solid 20px;
+   margin-left: 220px;*/
+}
+
+.my-avatar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 50%;
+}
+
+.myButton {
+  box-shadow: 3px 4px 0px 0px #001629;
+  background: linear-gradient(to bottom, #11999E 5%, #074482 100%);
+  background-color: #11999E;
+  border-radius: 5px;
+  border: 1px solid #350038;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #030c14;
+  position: absolute;
+  top: 2850px;
+  left: 870px;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #074482 5%, #2994ff 100%);
+  background-color: #074482;
+}
+
+
+.my-skills-text {
+  margin-bottom: 100px !important;
+  padding-left: 0;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.phone-image {
+  border-radius: 50%;
+  float: right;
+  width: 25%;
+}
+
+.phone1-image {
+  float: right;
+  width: 25rem;
+  /*margin: auto auto auto 45px;*/
+}
+
+.phone2-image {
+  border-radius: 50%;
+  float: right;
+  width: 25%;
+}
+
+.skills-container {
+  line-height: 2;
+  margin-left: 500px;
+  /*text-align: left;*/
+  width: 50%;
+  /*background-color: red;
+  border: solid 10px;
+  margin-left: 460px;*/
+}
+
+.skills-text {
+  line-height: 2;
+  padding-top: 50px;
+}
+
+.text-javascipt-align {
+  display: inline-block;
+  position: absolute;
+  left: 1360px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  /*border: solid 10px;*/
+  /*padding-top: 100px;*/
+}
+
+.top-cloud {
+  left: 1145px;
+  position: absolute;
+  top: 7px;
+  margin: 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/**************STYLES FOR THE PSUDO-CODE***********/
+a:hover {
+  color: blue;
+}
